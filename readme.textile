@@ -1,0 +1,3 @@
+h1. NEIAAC Chrome Webcam
+
+p. Simple extension displaying the last updated webcam photo of NEIAAC.
