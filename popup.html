@@ -1,0 +1,75 @@
+<html>
+    <head></head>
+    <body onLoad='document.getElementById("image").src="http://nei.dei.uc.pt/webcam/default.jpg?fuckyoucache="+Math.floor(Math.random()*999999);'>
+        <style>
+            body { min-width:357px; overflow-x:hidden; }
+            #image-container{
+                text-align: center;
+                background-color: #2C669E;
+                width:320px;
+                margin: 0 auto;
+                padding:20px;
+                border: 1px solid #FFF;
+
+            }
+            #image-container span{
+                font: 200% "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial", Verdana, sans-serif;
+                color: #FFF;
+                text-shadow: #333 0px 1px 0px;
+            }
+            img{ border: 2px solid #91C27B; margin-bottom:15px; }
+            a:visited,a:link{ color: #FFF; text-decoration: none; }
+        </style>
+
+        <div id="image-container">
+            <img id="image" src="" alt="NEI Webcam" width="320" height="240">
+            <span><a href="http://nei.dei.uc.pt/">NEI AAC</a></span>
+        </div>
+        <div id="rss-container"></div>
+
+
+        <script>
+        //     var req = new XMLHttpRequest();
+        //     req.open(
+        //         "GET",
+        //         "http://nei.dei.uc.pt/feed/", true);
+        //     req.onload = showPhotos;
+        //     req.send(null);
+        // function showPhotos() {
+
+            // xmlDoc=loadXMLString(req.responseXML);
+            // 
+            // // console.log(xmlDoc);
+            // 
+            //  var p = document.createElement("p");
+            //  p.innerHTML =xmlDoc;//.getElementsByTagName("title").length;
+            //  document.getElementById("rss-container").appendChild(p);
+
+          // var items = req.responseXML.getElementsByTagName("title");
+          // 
+          // for (var i = 0, item; item = items[i]; i++) {
+          //   var p = document.createElement("p");
+          //   p.innerHTML = item
+          //   document.getElementById("rss-container").appendChild(p);
+          // }
+        // }
+
+        // function loadXMLString(txt) 
+        // {
+        //     if (window.DOMParser)
+        //       {
+        //       parser=new DOMParser();
+        //       xmlDoc=parser.parseFromString(txt,"text/xml");
+        //       }
+        //     else // Internet Explorer
+        //       {
+        //       xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+        //       xmlDoc.async="false";
+        //       xmlDoc.loadXML(txt); 
+        //       }
+        //     return xmlDoc;
+        // }
+        </script>
+        
+    </body>
+</html>
