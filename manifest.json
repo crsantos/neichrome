@@ -1,6 +1,6 @@
 {
   "name": "NEIAAC Webcam",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Check who is on NEIAAC via our WebCam. Try our website http://nei.dei.uc.pt/",
 
   "browser_action": {
